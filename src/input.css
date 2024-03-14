@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent {
+  @apply block overflow-hidden;
+}
+.search {
+}
+.reveal.up .child {
+  @apply block translate-y-full;
+}
+.reveal.up.search .child {
+  @apply block translate-y-[120%];
+}
