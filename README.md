@@ -1,0 +1,1 @@
+# wanderInn-static-website
